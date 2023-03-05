@@ -1,0 +1,180 @@
+.game {
+  font-family:'Orbitron';
+  position: absolute;
+  top:20%;
+  left: 42%;
+}
+.heading{
+  font-family:'Orbitron';
+  text-align: center;
+}
+.info-section {
+  font-family:'Orbitron';
+  margin-top: 100px;
+  right: 400%;
+  font-size: 52px;
+}
+  
+.unclickable {
+  pointer-events: none;
+}
+.invisble {
+  visibility: hidden;
+}
+.circlebase {
+    display:inline-block;
+    border-radius: 50%;
+  border: 10px black solid;
+  }
+
+.circle-black{
+ position: relative;
+  border-radius:160px;
+  height: 300px;
+  width: 300px;
+  background-color:#252525;
+}
+
+.status  {
+  position: fixed;
+  height: 20px;
+  width: 20px;
+  border-radius:160px;
+  background:red;
+  font-size: 1.9rem;
+  color: black;
+  text-shadow: 0 0 px #888;;
+  display: inline-block;
+  transform:translate(650%,950%);
+}
+
+.status.activated{
+  background:green;
+}
+
+
+.AllTimeHigh  {
+  width: 40px;
+  position: fixed;
+  text-align: center;
+  background:#888;
+  font-size: 1.9rem;
+  color: black;
+  text-shadow: 0 0 px #888;;
+  display: inline-block;
+  border-radius: 10px;
+  transform:translate(100%,350%);
+}
+
+.highScore  {
+  width: 40px;
+  position: absolute;
+  background:#888;
+  font-size: 1.9rem;
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 px #888;;
+  display: inline-block;
+  border-radius: 10px;
+  transform:translate(530%,350%);
+}
+
+.startbt{
+  position: fixed;
+  background:#888;
+  font-size: 1.9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transform:translate(70%,350%);
+}
+
+.startbt:hover {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+.circle-red {
+  height: 150px;
+  width: 150px;
+  transform:translate(110%,-30%);
+  background-color: #f25022;
+  transition: 0.15s;
+}
+
+.circle-red:hover,.circle-red:focus {
+  background-color: #ff451a;
+}
+
+.circle-red:active,.circle-red.activated {
+  background-color: #ff5c36;
+  box-shadow:0 0 60px 30px #ff5c36;
+}
+
+.circle-green {
+  height: 150px;
+  width: 150px;
+  position:fixed;
+  transform:translate(-40%,-30%);
+  background-color: #7fba00;
+  transition: 0.15s;
+}
+
+.circle-green:hover,.circle-green:focus {
+  background-color: #8cc218;
+}
+
+.circle-green:active,.circle-green.activated {
+  background-color: #a0ea00;
+  box-shadow:
+  0 0 60px 30px #a0ea00;
+
+}
+
+.circle-yellow {
+  height: 150px;
+  width: 150px;
+  position:fixed;
+  transform:translate(-140%,110%);
+  background-color: #ffb900;
+  transition: 0.15s;
+}
+
+.circle-yellow:hover,.circle-yellow:focus {
+  background-color: #ffb900;
+}
+
+.circle-yellow:active,.circle-yellow.activated {
+  background-color: #ffca3d;
+  box-shadow:0 0 60px 30px #ffca3d;
+}
+
+.circle-blue {
+  height: 150px;
+  width: 150px;
+  position:fixed;
+  transform:translate(10%,110%);
+  background-color: #00a4ef;
+  transition: 0.15s;
+}
+
+.circle-blue:hover, .circle-blue:focus {
+  background-color: #139ddd;
+}
+
+.circle-blue:active, .circle-blue.activated {
+  background-color: #2bbcff;
+  box-shadow: 0 0 60px 30px #2bbcff;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
