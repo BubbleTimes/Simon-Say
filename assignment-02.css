@@ -43,7 +43,7 @@
   background:red;
   font-size: 1.9rem;
   color: black;
-  text-shadow: 0 0 px #888;;
+  text-shadow: 0 0 px #d8d4d4;
   display: inline-block;
   transform:translate(650%,950%);
 }
@@ -57,10 +57,10 @@
   width: 40px;
   position: fixed;
   text-align: center;
-  background:#888;
+  background:#d8d4d4;
   font-size: 1.9rem;
   color: black;
-  text-shadow: 0 0 px #888;;
+  text-shadow: 0 0 px #d8d4d4;
   display: inline-block;
   border-radius: 10px;
   transform:translate(100%,350%);
@@ -69,11 +69,11 @@
 .highScore  {
   width: 40px;
   position: absolute;
-  background:#888;
+  background:#d8d4d4;
   font-size: 1.9rem;
   text-align: center;
   color: black;
-  text-shadow: 0 0 px #888;;
+  text-shadow: 0 0 px #d8d4d4;
   display: inline-block;
   border-radius: 10px;
   transform:translate(530%,350%);
@@ -81,7 +81,7 @@
 
 .startbt{
   position: fixed;
-  background:#888;
+  background:#d8d4d4;
   font-size: 1.9rem;
   border-radius: 10px;
   cursor: pointer;
@@ -90,7 +90,7 @@
 
 .startbt:hover {
   color: #333;
-  border-color: #888;
+  border-color: #d8d4d4;
   outline: 0;
 }
 
